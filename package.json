@@ -1,0 +1,39 @@
+{
+  "name": "vue-task-board",
+  "version": "1.0.0",
+  "description": "A basic task board app based on Vue, TypeScript, Webpack and json-server",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npm run start-mockapi & webpack-dev-server --open",
+    "start-mockapi": "json-server --watch db.json --port 3001",
+    "test": "test"
+  },
+  "repository": "git+https://github.com/abhishekkhandait/Vue-Task-Board.git",
+  "keywords": [
+    "vue",
+    "typescript",
+    "webpack",
+    "json-server",
+    "task-board"
+  ],
+  "author": "Abhishek Khandait",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekkhandait/Vue-Task-Board/issues"
+  },
+  "homepage": "https://github.com/abhishekkhandait/Vue-Task-Board#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.2.2",
+    "typescript": "^3.1.3",
+    "webpack": "^4.22.0",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "json-server": "^0.14.0",
+    "material-design-lite": "^1.3.0",
+    "vue": "^2.5.17"
+  }
+}
