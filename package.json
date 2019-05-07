@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/abhishekkhandait/Vue-Task-Board#readme",
   "devDependencies": {
-    "css-loader": "^1.0.0",
+    "css-loader": "^2.1.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "ts-loader": "^5.2.2",
+    "ts-loader": "^6.0.0",
     "typescript": "^3.1.3",
     "webpack": "^4.22.0",
     "webpack-dev-server": "^3.1.9"
